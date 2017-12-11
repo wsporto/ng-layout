@@ -1,0 +1,18 @@
+<mat-drawer-container>
+  <mat-drawer mode="side" opened="true" class="mat-elevation-z4">
+    <mat-toolbar class="logo">
+      <ng-content select=".sidenav-toolbar"></ng-content>
+    </mat-toolbar>
+    <div #scrolling class="mat-elevation-z2 sidenav-content">
+      <ng-content select=".sidenav-content"></ng-content>
+    </div>
+  </mat-drawer>
+  <mat-drawer-content>
+    <mat-toolbar class="toolbar mat-elevation-z2">
+      <ng-content select=".main-toolbar"></ng-content>
+    </mat-toolbar>
+    <div #scrolling2 class="main">
+      <ng-content select=".main-content"></ng-content>
+    </div>
+  </mat-drawer-content>
+</mat-drawer-container>

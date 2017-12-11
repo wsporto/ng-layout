@@ -1,0 +1,17 @@
+mat-drawer-container {
+    height: 100vh;
+} 
+
+mat-drawer {
+    width: 300px;
+} 
+
+.sidenav-content {
+    /* overflow: auto; without simplebar */
+    height: calc(100% - 64px);
+}
+
+.main {
+    /* overflow: auto; */
+    height: calc(100% - 64px);
+} 
