@@ -13,8 +13,8 @@ export class LayoutComponent implements AfterViewInit {
   
 
   ngAfterViewInit(): void {
-    new SimpleBar(this.scroll1.nativeElement);
-    new SimpleBar(this.scroll2.nativeElement);
+    new SimpleBar(this.scroll1.nativeElement, { autoHide: false });
+    new SimpleBar(this.scroll2.nativeElement, { autoHide: false });
   }
 
 }
