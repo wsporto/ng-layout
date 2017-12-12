@@ -19,6 +19,9 @@ import { LayoutComponent } from './layout/layout.component';
     MatSidenavModule,
     MatToolbarModule
   ],
+  exports: [
+    LayoutComponent
+  ],
   providers: [],
   bootstrap: [AppComponent]
 })
