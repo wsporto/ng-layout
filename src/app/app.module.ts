@@ -1,4 +1,4 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import { MatSidenavModule, MatToolbarModule } from '@angular/material';
@@ -14,7 +14,7 @@ import { LayoutComponent } from './layout/layout.component';
     LayoutComponent
   ],
   imports: [
-    BrowserModule,
+    CommonModule,
     BrowserAnimationsModule,
     MatSidenavModule,
     MatToolbarModule
