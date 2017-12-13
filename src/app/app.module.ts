@@ -25,4 +25,4 @@ import { LayoutComponent } from './layout/layout.component';
   providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class LayoutModule { }
